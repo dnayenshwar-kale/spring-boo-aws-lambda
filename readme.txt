@@ -29,6 +29,9 @@ start in local
 
  sam local start-api
 
+test using curl 
+curl localhost:3000/api/message | python -m json.tool 
+
 deploy in aws 
 
 sam deploy --guided
