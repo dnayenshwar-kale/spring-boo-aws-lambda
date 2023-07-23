@@ -32,3 +32,7 @@ start in local
 deploy in aws 
 
 sam deploy --guided
+
+Delete reources 
+
+sam delete                                                  
